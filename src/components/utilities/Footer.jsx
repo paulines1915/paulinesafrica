@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Row, Col, Card, Form, Button } from 'react-bootstrap';
 
-import logo from '../assets/logo.png';
+import logo from '../../assets/logo.png';
 import SocilaMediaIcons from './SocilaMediaIcons';
 
 function Footer() {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Carousel } from 'react-bootstrap';
-import item1 from '../assets/item-1.png';
+import item1 from '../../assets/item-1.png';
 
 function HeroSection() {
   return (

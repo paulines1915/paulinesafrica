@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Card, Row, Image } from 'react-bootstrap';
-import book5 from '../assets/book5.png';
+import book5 from '../../assets/book5.png';
 
 function VideoBookSection() {
   return (
