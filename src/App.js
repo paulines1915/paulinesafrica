@@ -16,7 +16,7 @@ function App() {
       <PublishSection />
       <VideoBookSection />
       <Featured />
-      {/* <FooterSection /> */}
+      <FooterSection />
     </div>
   );
 }
