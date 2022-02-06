@@ -1,5 +1,6 @@
 import './App.css';
 import Featured from './components/Featured';
+import FooterSection from './components/Footer';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ObjectiveSection from './components/ObjectiveSection';
@@ -15,6 +16,7 @@ function App() {
       <PublishSection />
       <VideoBookSection />
       <Featured />
+      {/* <FooterSection /> */}
     </div>
   );
 }

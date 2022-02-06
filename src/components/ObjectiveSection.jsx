@@ -14,7 +14,7 @@ function ObjectiveSection() {
             eveniet veritatis molestiae sequi voluptatum mollitia odit dolorum
             qui dolores amet?
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button className="bg-main">Go somewhere</Button>
         </Card.Body>
       </Card>
     </div>
