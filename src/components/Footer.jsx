@@ -65,7 +65,8 @@ function Footer() {
               <ul className="list-unstyled">
                 <li>
                   {' '}
-                  <h1>Get up to date news from us</h1>
+                  <h1>News Letter</h1>
+                  <p>Get up to date news from us</p>
                 </li>
                 <li>
                   <Row className="mb-3">
