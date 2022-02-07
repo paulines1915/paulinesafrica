@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import './style/utilities.css';
 import './style/hero.css';
+import './style/featured.css';
+import './style/footer.css';
 
 ReactDOM.render(
   <React.StrictMode>

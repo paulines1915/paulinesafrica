@@ -1,16 +1,15 @@
 import React from 'react';
-import { Col, Card, Row } from 'react-bootstrap';
-import { Player } from 'video-react';
+import { Col, Card, Row, Image } from 'react-bootstrap';
+import book5 from '../assets/book5.png';
 
 function VideoBookSection() {
   return (
     <div className="m-3">
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
       <Row>
-        <Col xs={12} md={8} className="">
+        <Col xs={12} md={9} className="">
           <Card>
             <iframe
-              //   width="580"
               height="323"
               src="https://www.youtube.com/embed/f7iAza3DMRg"
               title="YouTube video player"
@@ -20,12 +19,15 @@ function VideoBookSection() {
             ></iframe>
           </Card>
         </Col>
-        <Col xs={6} md={4} className="">
-          <Card className="p-3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
-            amet id consequuntur perspiciatis obcaecati! Voluptatibus inventore
-            nihil fugiat at, delectus nostrum facere facilis expedita soluta
-            labore, fugit esse. Dolorum, dolor!
+        <Col xs={4} md={2} className="mt-xs-5 mt-md-0 book">
+          <Card>
+            <Card.Img
+              variant="top"
+              src={book5}
+              style={{ width: 14.3 + 'rem' }}
+              fluid="true"
+              id={book5}
+            />
           </Card>
         </Col>
       </Row>

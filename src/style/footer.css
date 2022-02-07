@@ -1,0 +1,41 @@
+footer.footer {
+  text-align: left !important;
+  line-height: 2rem;
+}
+
+footer.footer h1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer.footer .logo {
+  width: 7rem;
+}
+
+footer.footer .sisters {
+  background-color: aqua;
+  z-index: 1;
+}
+
+footer.footer .overlay {
+  background-image: linear-gradient(
+      rgba(0, 0, 255, 0.5),
+      rgba(255, 255, 0, 0.5)
+    ),
+    url('../assets/sister1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+footer.footer .overlay button {
+  width: 10rem;
+  margin: 0 auto;
+}

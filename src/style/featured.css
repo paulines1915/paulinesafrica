@@ -1,0 +1,12 @@
+.alternate-padding:nth-child(odd) {
+  padding-top: 1rem;
+}
+.book:hover {
+  cursor: pointer;
+  opacity: 0.95;
+}
+
+.book {
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+}
