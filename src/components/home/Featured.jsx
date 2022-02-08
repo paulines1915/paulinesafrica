@@ -22,9 +22,9 @@ function Featured() {
         className="text-center border-0 bg-white"
         // style={{ height: 15 + 'rem' }}
       >
-        <Card.Header className="text-dark bg-white border-0 text-maroon">
+        <Card.Title className="bg-white border-0 text-maroon">
           Featured Books
-        </Card.Header>
+        </Card.Title>
         <Card.Body className="m-3">
           {/* <Card.Title>Special title treatment</Card.Title> */}
 
