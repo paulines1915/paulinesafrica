@@ -8,7 +8,7 @@ function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bar-bg" variant="light">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/home">
           <img src={logo} alt="Paulines" style={{ width: 7 + `rem` }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -16,29 +16,26 @@ function Header() {
           <Nav className="me-auto"></Nav>
           <Nav fill defaultActiveKey="/home">
             <Nav.Link href="/home">Home</Nav.Link>
-
             <NavDropdown title="Who We Are" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Founders</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
-                Our History
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="/about">About</NavDropdown.Item>
+              <NavDropdown.Item href="/founders">Founders</NavDropdown.Item>
+              <NavDropdown.Item href="/history">Our History</NavDropdown.Item>
+              <NavDropdown.Item href="/spirituality">
                 Our Spirituality
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.5">
+              <NavDropdown.Item href="/mission">
                 Pauline Mission
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.6">
+              <NavDropdown.Item href="/cooperators">
                 Pauline Cooperators
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#pricing">Online Shop</Nav.Link>
-            <Nav.Link href="#pricing1">Vocations</Nav.Link>
-            <Nav.Link href="#pricing2">Donations</Nav.Link>
-            <Nav.Link href="#pricing3">Resources</Nav.Link>
-            <Nav.Link href="#pricing4">Events</Nav.Link>
+            <Nav.Link href="/shop">Online Shop</Nav.Link>
+            <Nav.Link href="/vocations">Vocations</Nav.Link>
+            <Nav.Link href="/donations">Donations</Nav.Link>
+            <Nav.Link href="/resources">Resources</Nav.Link>
+            <Nav.Link href="/events">Events</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
