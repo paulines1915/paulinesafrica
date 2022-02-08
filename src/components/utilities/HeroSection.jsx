@@ -5,17 +5,27 @@ import item1 from '../../assets/item-1.png';
 
 function HeroSection() {
   return (
-    <div className="bg-light text-dark">
+    <div className=" text-dark bg-main" style={{ maxHeight: 65 + `vh` }}>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100 " src={item1} alt="First slide" />
+          <img
+            className="d-block w-100"
+            style={{ maxHeight: 65 + `vh` }}
+            src={item1}
+            alt="First slide"
+          />
           <Carousel.Caption className="text-dark">
             <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100  " src={item1} alt="Second slide" />
+          <img
+            className="d-block w-100"
+            style={{ maxHeight: 65 + `vh` }}
+            src={item1}
+            alt="Second slide"
+          />
 
           <Carousel.Caption className="text-dark">
             <h3>Second slide label</h3>
@@ -23,7 +33,12 @@ function HeroSection() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 " src={item1} alt="Third slide" />
+          <img
+            className="d-block w-100"
+            style={{ maxHeight: 65 + `vh` }}
+            src={item1}
+            alt="Third slide"
+          />
 
           <Carousel.Caption className="text-dark">
             <h3>Third slide label</h3>

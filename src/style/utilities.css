@@ -1,3 +1,13 @@
 .bg-main {
   background-color: #023c5c;
 }
+
+.nav-bar-bg {
+  background-color: #c1b7b0;
+}
+
+.text-maroon {
+  color: #980606;
+  font-family: Roboto;
+  font-weight: 400;
+}
