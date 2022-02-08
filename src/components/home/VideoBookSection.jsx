@@ -8,7 +8,7 @@ function VideoBookSection() {
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
       <Row className="">
         <Col xs={12} md={7} className="p-0 m-0">
-          <Card className="container-fluid m-0 mb-xs-5 border-0 px-md-5">
+          <Card className="container-fluid m-0 mb-xs-5 border-0 ">
             <iframe
               height="355"
               // width="500"
@@ -24,7 +24,7 @@ function VideoBookSection() {
         <Col
           xs={4}
           md={5}
-          className="mt-sx-4 mt-sm-4 mt-lg-0 book px-5"
+          className="mt-sx-4 mt-sm-4 mt-md-0 book px-5"
           // style={{ width: 355 + 'px' }}
         >
           {/* <Card className=""> */}
