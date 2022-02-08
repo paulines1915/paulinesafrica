@@ -20,7 +20,7 @@ function ObjectiveSection() {
             publishing software like Aldus PageMaker including versions of Lorem
             Ipsum.
           </Card.Text>
-          <Button className="bg-main">Go somewhere</Button>
+          <Button className="bg-main">Learn More</Button>
         </Card.Body>
       </Card>
     </div>
