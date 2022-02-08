@@ -10,6 +10,7 @@ import './style/utilities.css';
 import './style/hero.css';
 import './style/featured.css';
 import './style/footer.css';
+import './style/bookcenter.css';
 
 ReactDOM.render(
   <React.StrictMode>

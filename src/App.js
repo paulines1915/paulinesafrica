@@ -1,23 +1,27 @@
 import './App.css';
-import Featured from './components/Featured';
-import FooterSection from './components/Footer';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import ObjectiveSection from './components/ObjectiveSection';
-import PublishSection from './components/PublishSection';
-import VideoBookSection from './components/VideoBookSection';
+
+import FooterSection from './components/utilities/Footer';
+import Header from './components/utilities/Header';
+import Home from './components/Home';
+import About from './components/About';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <HeroSection />
-      <ObjectiveSection />
-      <PublishSection />
-      <VideoBookSection />
-      <Featured />
-      <FooterSection />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+
+        <FooterSection />
+      </div>
+    </Router>
   );
 }
 
