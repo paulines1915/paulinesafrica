@@ -3,5 +3,11 @@
 }
 
 .nav-bar-bg {
-  background-color: rgba(177, 170, 170, 0.699);
+  background-color: #c1b7b0;
+}
+
+.text-maroon {
+  color: #980606;
+  font-family: Roboto;
+  font-weight: 400;
 }

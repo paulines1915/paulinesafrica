@@ -19,20 +19,20 @@ function Featured() {
   return (
     <div className="m-3">
       <Card
-        className="text-center border-0 bg-main"
-        style={{ height: 15 + 'rem' }}
+        className="text-center border-0 bg-white"
+        // style={{ height: 15 + 'rem' }}
       >
-        <Card.Header className="text-light">Featured Books</Card.Header>
+        <Card.Title className="bg-white text-maroon">Featured Books</Card.Title>
         <Card.Body className="m-3">
           {/* <Card.Title>Special title treatment</Card.Title> */}
 
-          <Row xs={6} md={6} className="g-4">
+          <Row xs={3} md={6} className="g-4">
             {images.map((url) => (
               <Col className="alternate-padding book" key={url.book}>
                 <Card.Img
                   variant="top"
                   src={url.book}
-                  style={{ width: 5 + 'rem' }}
+                  style={{ width: 70 + 'px' }}
                 />
               </Col>
             ))}
