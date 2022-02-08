@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import { Card, Row, Col } from "react-bootstrap";
-import book1 from "../../assets/book1.png";
-import book6 from "../../assets/book6.png";
-import book5 from "../../assets/book5.png";
-import book4 from "../../assets/book4.png";
+import { Card, Row, Col } from 'react-bootstrap';
+import book1 from '../../assets/book1.png';
+import book6 from '../../assets/book6.png';
+import book5 from '../../assets/book5.png';
+import book4 from '../../assets/book4.png';
 
 const images = [
   { book: book1, padding: `paddingTop:${1}rem` },
@@ -32,7 +32,7 @@ function Featured() {
                 <Card.Img
                   variant="top"
                   src={url.book}
-                  style={{ width: 70 + "px" }}
+                  style={{ width: 70 + 'px' }}
                 />
               </Col>
             ))}
