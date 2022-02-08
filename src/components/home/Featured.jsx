@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { Card, Row, Col } from 'react-bootstrap';
-import book1 from '../../assets/book1.png';
-import book6 from '../../assets/book6.png';
-import book5 from '../../assets/book5.png';
-import book4 from '../../assets/book4.png';
+import { Card, Row, Col } from "react-bootstrap";
+import book1 from "../../assets/book1.png";
+import book6 from "../../assets/book6.png";
+import book5 from "../../assets/book5.png";
+import book4 from "../../assets/book4.png";
 
 const images = [
   { book: book1, padding: `paddingTop:${1}rem` },
@@ -17,13 +17,13 @@ const images = [
 
 function Featured() {
   return (
-    <div className="m-3">
+    <div className="container">
       <Card
         className="text-center border-0 bg-white"
         // style={{ height: 15 + 'rem' }}
       >
         <Card.Title className="bg-white text-maroon">Featured Books</Card.Title>
-        <Card.Body className="m-3">
+        <Card.Body className="m-3 bg-main">
           {/* <Card.Title>Special title treatment</Card.Title> */}
 
           <Row xs={3} md={6} className="g-4">
@@ -32,16 +32,11 @@ function Featured() {
                 <Card.Img
                   variant="top"
                   src={url.book}
-                  style={{ width: 70 + 'px' }}
+                  style={{ width: 70 + "px" }}
                 />
               </Col>
             ))}
           </Row>
-
-          {/* <Card.Text>
-            With supporting text below as a natural lead-in to additional
-            content.
-          </Card.Text> */}
         </Card.Body>
       </Card>
     </div>

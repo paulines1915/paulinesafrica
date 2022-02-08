@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import { Row, Col, Card, Form, Button } from 'react-bootstrap';
+import { Row, Col, Card, Form, Button } from "react-bootstrap";
 
-import logo from '../../assets/logo.png';
-import SocilaMediaIcons from './SocilaMediaIcons';
+import logo from "../../assets/logo.png";
+import SocilaMediaIcons from "./SocilaMediaIcons";
 
 function Footer() {
   return (
@@ -23,14 +23,14 @@ function Footer() {
                 </li>
                 <li>
                   <address className="text-left">
-                    You can contact us at{' '}
+                    You can contact us at{" "}
                     <a href="http://www.somedomain.com/contact">
                       www.somedomain.com
                     </a>
                     .<br />
                     Phone: <a href="tel:+254745618055">+254 745 618 055</a>
                     .<br />
-                    If in need of help, please{' '}
+                    If in need of help, please{" "}
                     <a href="mailto:paulines1915@gmail.com">contact admin</a>
                     .<br />
                     <br />
@@ -50,7 +50,7 @@ function Footer() {
             <Col xs={12} md={4}>
               <ul className="list-unstyled">
                 <li>
-                  {' '}
+                  {" "}
                   <h1>Site map</h1>
                 </li>
                 <li>Home</li>
@@ -64,8 +64,8 @@ function Footer() {
             <Col xs={12} md={4}>
               <ul className="list-unstyled">
                 <li>
-                  {' '}
-                  <h1>Get up to date news from us</h1>
+                  {" "}
+                  <h1>Newletter signup</h1>
                 </li>
                 <li>
                   <Row className="mb-3">

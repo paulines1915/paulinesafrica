@@ -1,10 +1,10 @@
-import React from 'react';
-import { Col, Card, Row, Image } from 'react-bootstrap';
-import book5 from '../../assets/book5.png';
+import React from "react";
+import { Col, Card, Row, Image } from "react-bootstrap";
+import book5 from "../../assets/book5.png";
 
 function VideoBookSection() {
   return (
-    <div className="p-3">
+    <div className="container">
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
       <Row>
         <Col
@@ -32,7 +32,7 @@ function VideoBookSection() {
           // style={{ width: 355 + 'px' }}
         >
           {/* <Card className=""> */}
-          <Card.Img src={book5} style={{ width: 267 + 'px' }} id={book5} />
+          <Card.Img src={book5} style={{ width: 267 + "px" }} id={book5} />
           {/* </Card> */}
         </Col>
       </Row>
