@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import { NavLink } from 'react-bootstrap';
+import { NavLink, Card, Row, Col } from "react-bootstrap";
 
 function PublishSection() {
   return (
-    <>
-      <NavLink className="bg-main m-3 p-5 text-light text-uppercase">
-        <p className="h2">Publish with us</p>
-      </NavLink>
-    </>
+    <div className="container">
+      <Card className="text-center border-0 bg-white">
+        <Card.Body className="m-3 p-5 bg-main text-uppercase text-white">
+          <Card.Title>Publish with us</Card.Title>
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
 
