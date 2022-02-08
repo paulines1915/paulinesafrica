@@ -10,7 +10,7 @@ function VideoBookSection() {
         <Col xs={12} md={7} className="p-0 m-0">
           <Card className="container-fluid m-0 mb-xs-5 border-0 px-md-5">
             <iframe
-              height="323"
+              height="355"
               // width="500"
               className="w-90"
               src="https://www.youtube.com/embed/f7iAza3DMRg"
@@ -21,9 +21,14 @@ function VideoBookSection() {
             ></iframe>
           </Card>
         </Col>
-        <Col xs={4} md={5} className="mt-sm-4 mt-md-0 book px-5">
+        <Col
+          xs={4}
+          md={5}
+          className="mt-sx-4 mt-sm-4 mt-lg-0 book px-5"
+          // style={{ width: 355 + 'px' }}
+        >
           {/* <Card className=""> */}
-          <Card.Img src={book5} style={{ width: 14.3 + 'rem' }} id={book5} />
+          <Card.Img src={book5} style={{ width: 267 + 'px' }} id={book5} />
           {/* </Card> */}
         </Col>
       </Row>
