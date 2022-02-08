@@ -4,7 +4,7 @@ import { Nav } from 'react-bootstrap';
 
 function Header() {
   return (
-    <div className="bg-main p-3">
+    <div className="nav-bar-bg p-3">
       <Nav justify variant="pills" defaultActiveKey="/home" as="ul">
         <Nav.Item as="li">
           <Nav.Link href="/home">Home</Nav.Link>

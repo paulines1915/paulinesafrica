@@ -6,29 +6,24 @@ function VideoBookSection() {
   return (
     <div className="p-3">
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
-      <Row className="m-0 p-0">
+      <Row className="">
         <Col xs={12} md={7} className="p-0 m-0">
-          {/* <Card className="p-0 m-0 mb-xs-5"> */}
-          <iframe
-            height="323"
-            width="570"
-            src="https://www.youtube.com/embed/f7iAza3DMRg"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          {/* </Card> */}
+          <Card className="container-fluid m-0 mb-xs-5 border-0 px-md-5">
+            <iframe
+              height="323"
+              // width="500"
+              className="w-90"
+              src="https://www.youtube.com/embed/f7iAza3DMRg"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </Card>
         </Col>
-        <Col xs={4} md={5} className="mt-sm-4 mt-md-0 book">
-          {/* <Card className="p-0 m-0-"> */}
-          <Card.Img
-            variant="top"
-            src={book5}
-            style={{ width: 14.3 + 'rem' }}
-            fluid="true"
-            id={book5}
-          />
+        <Col xs={4} md={5} className="mt-sm-4 mt-md-0 book px-5">
+          {/* <Card className=""> */}
+          <Card.Img src={book5} style={{ width: 14.3 + 'rem' }} id={book5} />
           {/* </Card> */}
         </Col>
       </Row>
