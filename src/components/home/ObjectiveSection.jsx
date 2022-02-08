@@ -5,9 +5,9 @@ import { Card, Button } from 'react-bootstrap';
 function ObjectiveSection() {
   return (
     <div>
-      <Card className="text-center m-3 px-5">
-        <Card.Body className="m-3">
-          <Card.Title>General Objective</Card.Title>
+      <Card className="text-center m-3 px-5 border-0">
+        <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
+          <Card.Title className="text-maroon">General Objective</Card.Title>
           <Card.Text>
             General Objective Lorem Ipsum is simply dummy text of the printing
             and typesetting industry. Lorem Ipsum has been the industry's

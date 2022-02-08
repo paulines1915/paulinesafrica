@@ -6,7 +6,7 @@ function AboutInfo() {
   return (
     <div>
       <Card className="text-center p-md-5 border-2 m-5 shadow">
-        <Card.Body>
+        <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
           <Card.Title>About Us</Card.Title>
           <Card.Text>
             About us Lorem Ipsum is simply dummy text of the printing and

@@ -6,8 +6,12 @@ function VideoBookSection() {
   return (
     <div className="p-3">
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
-      <Row className="">
-        <Col xs={12} md={7} className="p-0 m-0">
+      <Row>
+        <Col
+          xs={12}
+          md={7}
+          style={{ maxWidth: 750 + `px`, margin: 0 + ` auto` }}
+        >
           <Card className="container-fluid m-0 mb-xs-5 border-0 ">
             <iframe
               height="355"
