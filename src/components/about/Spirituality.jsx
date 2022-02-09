@@ -15,9 +15,28 @@ function Spirituality() {
             {' '}
             <h1>Our Spirituality</h1>
           </div>
-          <Card.Title className="text-maroon my-4">
+          <Card.Title className="text-maroon my-4 text-uppercase">
             Pauline Spirituality
           </Card.Title>
+          <Card.Text className="">
+            The heart of the Pauline spirituality is Jesus Master, Way, Truth
+            and Life. Living in him, we enthusiastically proclaim his Gospel.
+            Our spirituality is complete because it leads the whole person mind,
+            will, heart, body and physical energies to God. We are striving to
+            reach the same goal as the Apostle Paul: "It is no longer I who live
+            but Christ who lives in me". To attain this objective, we draw light
+            and support from the Eucharist, the Word of God, daily prayer and
+            fraternal communion all of which give us the strength we need to
+            carry out our many-faceted apostolate. They are also the fonts that
+            help us discern the signs of the times so as to respond to the needs
+            of the Church and world.
+          </Card.Text>
+          <Card.Text className="mb-5">
+            Modeling ourselves on Mary, whom we honor as the Queen of Apostles
+            and of every apostolate, we bring Jesus to all humanity with great
+            fervor, proclaiming the Truth that saves, the Way that leads to the
+            Father, and his Life of grace.
+          </Card.Text>
           <Row className="mb-4" xs={1} md={2}>
             <Col>
               <Card.Title className="text-maroon">
@@ -45,7 +64,6 @@ function Spirituality() {
               />
             </Col>
           </Row>
-
           <Row className="mb-4" xs={1} md={2}>
             <Col>
               {' '}
