@@ -1,12 +1,6 @@
 import React from 'react';
 
-import {
-  FaWhatsapp,
-  FaInstagram,
-  FaTwitter,
-  FaFacebookF,
-  FaYoutube,
-} from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaFacebookF, FaYoutube } from 'react-icons/fa';
 
 import { Col } from 'react-bootstrap';
 

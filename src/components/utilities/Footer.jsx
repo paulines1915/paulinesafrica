@@ -2,7 +2,8 @@ import React from 'react';
 
 import { Row, Col, Card, Form, Button } from 'react-bootstrap';
 
-import logo from '../../assets/logo.png';
+import { FaFax, FaPhoneAlt, FaMobile, FaEnvelope } from 'react-icons/fa';
+
 import FormModal from '../home/FormModal';
 import SocilaMediaIcons from './SocilaMediaIcons';
 
@@ -45,13 +46,16 @@ function Footer() {
                     Nairobi GPO(Kenya)
                     <br />
                     <br />
+                    <FaPhoneAlt />
                     Tel: <a href="tel:(020)44447202/03">(020) 44447202/03</a>
                     .<br />
+                    <FaFax />
                     Fax: <a href="fax:4442097">4442097</a>
                     .<br />
-                    Mob: <a href="tel:+254727736621">+254 727 736 621</a>
+                    <FaMobile /> Mob:{' '}
+                    <a href="tel:+254727736621">+254 727 736 621</a>
                     .<br />
-                    Email:{' '}
+                    <FaEnvelope /> Email:{' '}
                     <a href="mailto:publications@paulinesafrica.org">
                       publications@paulinesafrica.org
                     </a>

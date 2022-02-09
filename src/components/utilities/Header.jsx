@@ -31,7 +31,6 @@ function Header() {
               <NavDropdown.Item href="/mission">
                 Pauline Mission
               </NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="/cooperators">
                 Pauline Cooperators
               </NavDropdown.Item>

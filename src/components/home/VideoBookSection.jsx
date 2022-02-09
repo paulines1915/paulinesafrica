@@ -23,8 +23,8 @@ function VideoBookSection() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <Card className="text-maroon rounded-0">
-              SIXTH SUNDAY IN ORDINARY TIME YEAR C
+            <Card className="text-maroon rounded-0 text-uppercase">
+              SIXTH SUNDAY IN ORDINARY TIME YEAR c
             </Card>
           </Card>
         </Col>
