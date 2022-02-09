@@ -5,7 +5,7 @@ import { Card } from 'react-bootstrap';
 function AboutInfo() {
   return (
     <div>
-      <Card className="text-center p-md-5 border-0 m-5 shadow">
+      <Card className="text-center p-md-5 border-0 m-5">
         <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
           <Card.Title className="text-maroon">About Us</Card.Title>
           <Card.Text>

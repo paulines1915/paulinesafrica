@@ -6,7 +6,12 @@ import logo from '../../assets/logo.png';
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="nav-bar-bg" variant="light">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      className="bg-white sticky"
+      variant="light"
+    >
       <Container>
         <Navbar.Brand href="/home">
           <img src={logo} alt="Paulines" style={{ width: 7 + `rem` }} />
