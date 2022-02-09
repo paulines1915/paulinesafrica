@@ -5,38 +5,70 @@ import {
   FaInstagram,
   FaTwitter,
   FaFacebookF,
-  FaLinkedin,
+  FaYoutube,
 } from 'react-icons/fa';
 
-import { Row, Col, Link } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 function SocilaMediaIcons() {
   return (
-    <div>
-      <Row xs={12}>
-        <Col>
-          <a href="#" className="m-2">
-            {' '}
-            <FaWhatsapp />
+    <Col>
+      <ul className="list-unstyled">
+        <li>
+          <h1>Connect with us</h1>
+        </li>
+        <li>
+          {' '}
+          <a
+            href="https://www.facebook.com/paulinesbooks.centre/"
+            className="m-2"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaFacebookF />
+            Facebook
           </a>
-          <a href="#" className="m-2">
+        </li>
+
+        <li>
+          <a
+            href="https://www.instagram.com/daughtersofstpaul_africa/?hl=en"
+            className="m-2"
+            target="_blank"
+            rel="noreferrer"
+          >
             {' '}
             <FaInstagram />
+            Instagram
           </a>
+        </li>
 
-          <a href="#" className="m-2">
+        <li>
+          <a
+            href="https://mobile.twitter.com/africapaulines"
+            className="m-2"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaTwitter />
+            Twitter
           </a>
-          <a href="#" className="m-2">
-            <FaFacebookF />
-          </a>
-          <a href="#" className="m-2">
+        </li>
+
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCcTSXNL4ixtgjUluuIvxNXA/videos"
+            className="m-2"
+            target="_blank"
+            rel="noreferrer"
+          >
             {' '}
-            <FaLinkedin />
+            <FaYoutube />
+            Youtube
           </a>
-        </Col>
-      </Row>
-    </div>
+        </li>
+      </ul>
+    </Col>
   );
 }
 

@@ -11,6 +11,7 @@ import './style/hero.css';
 import './style/featured.css';
 import './style/footer.css';
 import './style/bookcenter.css';
+import './style/home.css';
 
 ReactDOM.render(
   <React.StrictMode>
