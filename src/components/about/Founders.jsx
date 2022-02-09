@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import HeroSection from '../utilities/HeroSection';
+import FoundersAvatar from './FoundersAvatar';
 
 function Founders() {
   return (
@@ -19,7 +20,8 @@ function Founders() {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Button className="mb-3">Read More</Button>
+      <Button className="mb-3 px-5 bg-main">Read More</Button>
+      <FoundersAvatar />
     </div>
   );
 }
