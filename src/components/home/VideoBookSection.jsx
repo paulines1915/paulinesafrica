@@ -1,6 +1,6 @@
-import React from "react";
-import { Col, Card, Row, Image } from "react-bootstrap";
-import book5 from "../../assets/book5.png";
+import React from 'react';
+import { Col, Card, Row, Image } from 'react-bootstrap';
+import book5 from '../../assets/book5.png';
 
 function VideoBookSection() {
   return (
@@ -23,16 +23,19 @@ function VideoBookSection() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
+            <Card className="text-maroon rounded-0 text-uppercase">
+              SIXTH SUNDAY IN ORDINARY TIME YEAR c
+            </Card>
           </Card>
         </Col>
         <Col
           xs={4}
           md={5}
-          className="mt-sx-4 mt-sm-4 mt-md-0 book px-5"
+          className="mt-sx-4 mt-sm-4 mt-md-0 mb-2 book px-5"
           // style={{ width: 355 + 'px' }}
         >
           {/* <Card className=""> */}
-          <Card.Img src={book5} style={{ width: 267 + "px" }} id={book5} />
+          <Card.Img src={book5} style={{ width: 267 + 'px' }} id={book5} />
           {/* </Card> */}
         </Col>
       </Row>
