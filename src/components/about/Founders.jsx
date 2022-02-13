@@ -49,7 +49,6 @@ function Founders() {
             </Card>
           </Col>
         </Row>
-
         <FoundersAvatar />
       </Container>
     </>
