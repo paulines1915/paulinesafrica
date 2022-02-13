@@ -5,9 +5,9 @@ import { Card } from 'react-bootstrap';
 function AboutInfo() {
   return (
     <div>
-      <Card className="text-center p-md-5 border-2 m-5 shadow">
-        <Card.Body>
-          <Card.Title>About Us</Card.Title>
+      <Card className="text-center p-md-5 border-0 m-5 shadow">
+        <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
+          <Card.Title className="text-maroon">About Us</Card.Title>
           <Card.Text>
             About us Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the industry's standard

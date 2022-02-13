@@ -4,13 +4,19 @@ import book5 from '../../assets/book5.png';
 
 function VideoBookSection() {
   return (
-    <div className="m-3">
+    <div className="p-3">
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
       <Row>
-        <Col xs={12} md={9} className="">
-          <Card>
+        <Col
+          xs={12}
+          md={7}
+          style={{ maxWidth: 750 + `px`, margin: 0 + ` auto` }}
+        >
+          <Card className="container-fluid m-0 mb-xs-5 border-0 ">
             <iframe
-              height="323"
+              height="355"
+              // width="500"
+              className="w-90"
               src="https://www.youtube.com/embed/f7iAza3DMRg"
               title="YouTube video player"
               frameBorder="0"
@@ -19,16 +25,15 @@ function VideoBookSection() {
             ></iframe>
           </Card>
         </Col>
-        <Col xs={4} md={2} className="mt-xs-5 mt-md-0 book">
-          <Card>
-            <Card.Img
-              variant="top"
-              src={book5}
-              style={{ width: 14.3 + 'rem' }}
-              fluid="true"
-              id={book5}
-            />
-          </Card>
+        <Col
+          xs={4}
+          md={5}
+          className="mt-sx-4 mt-sm-4 mt-md-0 book px-5"
+          // style={{ width: 355 + 'px' }}
+        >
+          {/* <Card className=""> */}
+          <Card.Img src={book5} style={{ width: 267 + 'px' }} id={book5} />
+          {/* </Card> */}
         </Col>
       </Row>
     </div>

@@ -11,7 +11,7 @@ function Footer() {
       <Card className="p-0 border-0">
         <div className="overlay">
           <h1>We are here for anytime everyday</h1>
-          <Button>Get n touch</Button>
+          <Button>Get in touch</Button>
         </div>
         <Card.Body className="bg-main text-light">
           {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
