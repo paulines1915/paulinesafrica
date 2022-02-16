@@ -17,13 +17,13 @@ const images = [
 
 function Featured() {
   return (
-    <div className="m-3">
+    <div className="container">
       <Card
         className="text-center border-0 bg-white"
         // style={{ height: 15 + 'rem' }}
       >
         <Card.Title className="bg-white text-maroon">Featured Books</Card.Title>
-        <Card.Body className="m-3">
+        <Card.Body className="m-3 bg-main">
           {/* <Card.Title>Special title treatment</Card.Title> */}
 
           <Row xs={3} md={6} className="g-4">
@@ -37,11 +37,6 @@ function Featured() {
               </Col>
             ))}
           </Row>
-
-          {/* <Card.Text>
-            With supporting text below as a natural lead-in to additional
-            content.
-          </Card.Text> */}
         </Card.Body>
       </Card>
     </div>

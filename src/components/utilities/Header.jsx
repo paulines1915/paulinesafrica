@@ -6,7 +6,12 @@ import logo from '../../assets/logo.png';
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="nav-bar-bg" variant="light">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      className="bg-white sticky"
+      variant="light"
+    >
       <Container>
         <Navbar.Brand href="/home">
           <img src={logo} alt="Paulines" style={{ width: 7 + `rem` }} />
@@ -26,13 +31,24 @@ function Header() {
               <NavDropdown.Item href="/mission">
                 Pauline Mission
               </NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="/cooperators">
                 Pauline Cooperators
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/shop">Online Shop</Nav.Link>
-            <Nav.Link href="/vocations">Vocations</Nav.Link>
+            <Nav.Link
+              href="http://www.e.paulinesafrica.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Online Shop
+            </Nav.Link>
+            <Nav.Link
+              href="http://www.young.paulinesafrica.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vocations
+            </Nav.Link>
             <Nav.Link href="/donations">Donations</Nav.Link>
             <Nav.Link href="/resources">Resources</Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>

@@ -5,7 +5,11 @@ import item1 from '../../assets/item-1.png';
 
 function HeroSection() {
   return (
-    <div className=" text-dark bg-main" style={{ maxHeight: 65 + `vh` }}>
+    <div
+      id="carouselHacked"
+      className="text-dark bg-main"
+      style={{ maxHeight: 65 + `vh` }}
+    >
       <Carousel>
         <Carousel.Item>
           <img
