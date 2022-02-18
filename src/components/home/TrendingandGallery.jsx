@@ -35,6 +35,7 @@ function TrendingandGallery() {
                   variant="top"
                   src={url.icon}
                   style={{ width: 221 + 'px' }}
+                  className='rounded-0 shadow'
                 />
               </Col>
             ))}

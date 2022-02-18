@@ -1,17 +1,8 @@
 .hero-height {
-  height: 65vh;
+  /* maxHeight: 65vh; */
+  height: 70rem;
 }
 
-/* reset bootstrap styles (for v.3) */
-.carousel-inner > .carousel-item-next,
-.carousel-inner > .carousel-active.right,
-.carousel-inner > .carousel-prev,
-.carousel-inner > .carousel-active.left,
-.carousel-inner > .carousel-next.left,
-.carousel-inner > .carousel-prev.right,
-.carousel-inner > .carousel-active {
-  transform: none;
-}
 
 /* default item styles  */
 .carousel-inner > .carousel- {

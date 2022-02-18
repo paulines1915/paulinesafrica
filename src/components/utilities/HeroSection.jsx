@@ -12,13 +12,13 @@ function HeroSection() {
     <div
       id="carouselHacked"
       className="text-dark bg-main"
-      style={{ maxHeight: 65 + `vh` }}
+      style={{ maxHeight: 70 + `vh` }}
     >
       <Carousel fade='true'>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style={{ maxHeight: 65 + `vh` }}
+            style={{ maxHeight: 70 + 'vh' }}
             src={banner1}
             alt="First slide"
           />
@@ -28,7 +28,7 @@ function HeroSection() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style={{ maxHeight: 65 + `vh` }}
+            style={{ maxHeight: 70 + `vh` }}
             src={banner2}
             alt="Second slide"
           />
@@ -39,7 +39,7 @@ function HeroSection() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style={{ maxHeight: 65 + `vh` }}
+            style={{ maxHeight: 70 + `vh` }}
             src={banner3}
             alt="Third slide"
           />
@@ -51,7 +51,7 @@ function HeroSection() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style={{ maxHeight: 65 + `vh` }}
+            style={{ maxHeight: 70 + `vh` }}
             src={banner4}
             alt="Third slide"
           />
@@ -62,7 +62,7 @@ function HeroSection() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style={{ maxHeight: 65 + `vh` }}
+            style={{ maxHeight: 70 + `vh` }}
             src={banner5}
             alt="Third slide"
           />
