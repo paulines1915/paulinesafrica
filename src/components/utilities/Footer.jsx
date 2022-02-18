@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import { Row, Col, Card, Form, Button } from 'react-bootstrap';
+import { Row, Col, Card, Form, Button, Container } from "react-bootstrap";
 
-import { FaFax, FaPhoneAlt, FaMobile, FaEnvelope } from 'react-icons/fa';
+import { FaFax, FaPhoneAlt, FaMobile, FaEnvelope } from "react-icons/fa";
 
-import FormModal from '../home/FormModal';
-import SocilaMediaIcons from './SocilaMediaIcons';
+import FormModal from "../home/FormModal";
+import SocilaMediaIcons from "./SocilaMediaIcons";
 
 function Footer() {
   return (
@@ -16,17 +16,22 @@ function Footer() {
           <FormModal />
         </div>
         <Card.Body className="bg-main text-light">
-          {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
           <Row>
-            <Row xs={12}>
-              <h1>Newletter signup</h1>
-              <Col xs={8} className="mb-3">
-                <Form.Group as={Col} controlId="formGridEmail">
-                  <Form.Control type="email" placeholder="Enter email" />
+            <Row className="text-center container">
+              <h1>Subscribe to our Monthly Newsletter</h1>
+
+              <Col sm={10} className="mb-3">
+                <Form.Group controlId="formGridEmail"   >
+                  <Form.Control
+                  style={{width:70+'vw'}}
+                    type="email"
+                    placeholder="Enter email"
+                    
+                  />
                 </Form.Group>
               </Col>
-              <Col xs={4}>
-                <Button as={Col} variant="primary" type="submit">
+              <Col sm={2} className="mb-3">
+                <Button variant="primary" type="submit">
                   Submit
                 </Button>
               </Col>
@@ -34,7 +39,7 @@ function Footer() {
             <Col xs={12} md={3}>
               <ul className="list-unstyled">
                 <li>
-                  {' '}
+                  {" "}
                   <h1>Contact us</h1>
                 </li>
                 <li>
@@ -52,10 +57,10 @@ function Footer() {
                     <FaFax />
                     Fax: <a href="fax:4442097">4442097</a>
                     .<br />
-                    <FaMobile /> Mob:{' '}
+                    <FaMobile /> Mob:{" "}
                     <a href="tel:+254727736621">+254 727 736 621</a>
                     .<br />
-                    <FaEnvelope /> Email:{' '}
+                    <FaEnvelope /> Email:{" "}
                     <a href="mailto:publications@paulinesafrica.org">
                       publications@paulinesafrica.org
                     </a>
@@ -68,7 +73,7 @@ function Footer() {
             <Col xs={12} md={3}>
               <ul className="list-unstyled">
                 <li>
-                  {' '}
+                  {" "}
                   <h1>Daughters of St Paul</h1>
                 </li>
                 <li>Who we are</li>
@@ -78,15 +83,15 @@ function Footer() {
                 <li>our mission</li>
                 <li>Pauline cooperators and Events</li>
                 <li>
-                  {' '}
-                  <a href="www.paoline.org">News</a>{' '}
+                  {" "}
+                  <a href="www.paoline.org">News</a>{" "}
                 </li>
               </ul>
             </Col>
             <Col xs={12} md={3}>
               <ul className="list-unstyled">
                 <li>
-                  {' '}
+                  {" "}
                   <h1>Quick Links</h1>
                 </li>
                 <li>

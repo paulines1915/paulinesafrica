@@ -5,9 +5,9 @@ import { Card, Row, Col } from 'react-bootstrap';
 function PublishSection() {
   return (
     <div className="container ">
-      <Card className="text-center border-0 rounded-0 publish-bg mb-4">
-        <Card.Body>
-          <Row className="mt-5 pt-5">
+      <Card className="text-center border-0 rounded-0  mb-4">
+        <Card.Body className='publish-bg'>
+          <Row className="p-5">
             <Col style={{ paddingLeft: 0 }} className="text-uppercase ms-auto">
               <a
                 href="https://www.youtube.com/watch?v=GIV-sfAva00&t=1s"
