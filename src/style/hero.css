@@ -1,3 +1,30 @@
 .hero-height {
   height: 65vh;
 }
+
+/* reset bootstrap styles (for v.3) */
+.carousel-inner > .carousel-item-next,
+.carousel-inner > .carousel-active.right,
+.carousel-inner > .carousel-prev,
+.carousel-inner > .carousel-active.left,
+.carousel-inner > .carousel-next.left,
+.carousel-inner > .carousel-prev.right,
+.carousel-inner > .carousel-active {
+  transform: none;
+}
+
+/* default item styles  */
+.carousel-inner > .carousel- {
+  opacity: 0;
+  transform: scale(1);
+  transition: opacity 4s linear, transform 10s linear;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+/* active item styles  */
+.carousel-inner > .carousel-active {
+  opacity: 1;
+  transform: scale(1.1);
+}
