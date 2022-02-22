@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Card, Row, Image } from 'react-bootstrap';
-import book5 from '../../assets/book5.png';
+import book5 from '../../assets/book-of-the-month.png';
 
 function VideoBookSection() {
   return (
@@ -31,9 +31,9 @@ function VideoBookSection() {
           className="mt-sx-4 mt-sm-4 mt-md-0 mb-2 book px-5"
           // style={{ width: 355 + 'px' }}
         >
-          {/* <Card className=""> */}
-          <Card.Img src={book5} style={{ width: 267 + 'px' }} id={book5} />
-          {/* </Card> */}
+          <Card className="mt-sx-2">
+          <Card.Img src={book5} style={{ minWidth: 267 + 'px' }} id={book5} />
+          </Card>
         </Col>
       </Row>
     </div>
