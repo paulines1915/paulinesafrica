@@ -4,20 +4,22 @@ import { Card, Row, Col, Container } from "react-bootstrap";
 
 import icon1 from "../../assets/resources.png";
 import icon2 from "../../assets/gallery.png";
+import icon3 from "../../assets/trending.png";
 
 const icons = [
  
   {
+    icon: icon3,
+    href: " https://e.paulinesafrica.org/index.php/book/bookDetails/1687",
+  },
+  {
+    icon: icon2,
+    href: "https://e.paulinesafrica.org/index.php/book/bookDetails/1686",
+  },
+ 
+  {
     icon: icon1,
     href: "https://e.paulinesafrica.org/index.php/book/bookDetails/1686",
-  },
-  {
-    icon: icon2,
-    href: "https://e.paulinesafrica.org/index.php/book/bookDetails/1686",
-  },
-  {
-    icon: icon2,
-    href: " https://e.paulinesafrica.org/index.php/book/bookDetails/1687",
   },
 ];
 
