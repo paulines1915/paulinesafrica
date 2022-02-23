@@ -19,7 +19,7 @@ const images = [
 function BookCenter() {
   return (
     <div className="container">
-      <h1>Our Book Centres</h1>
+      <h1 className=' font-header'>Our Book Centres</h1>
       <Row xs={12} md={2} className="g-4 bookcenter p-0">
         {images.map((url, idx) => (
           <Col

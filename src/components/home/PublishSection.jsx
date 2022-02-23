@@ -5,25 +5,27 @@ import { Card, Row, Col } from 'react-bootstrap';
 function PublishSection() {
   return (
     <div className="container ">
-      <Card className="text-center border-0 rounded-0 publish-bg mb-4">
-        <Card.Body>
-          <Row className="mt-5 pt-5">
-            <Col style={{ paddingLeft: 0 }} className="text-uppercase ms-auto">
+      <Card className="text-center border-0 rounded-0  mb-4">
+        <Card.Body className='publish-bg'>
+          <Row className="p-5">
+            <Col sm={8} style={{ paddingLeft: 0 }} className="text-uppercase ms-auto">
               <a
                 href="https://www.youtube.com/watch?v=GIV-sfAva00&t=1s"
-                className="bg-main text-white px-2 py-1"
+            
                 target="_blank"
                 rel="noreferrer"
+                className='text-white font-header h2'
               >
                 Publish with us
               </a>
             </Col>
-            <Col>
+            <Col sm={4} >
               <a
-                className="bg-white text-dark px-2 py-1"
+               
                 href="https://www.youtube.com/watch?v=GIV-sfAva00&t=1s"
                 target="_blank"
                 rel="noreferrer"
+                className='btn btn-info'
               >
                 Learn More
               </a>

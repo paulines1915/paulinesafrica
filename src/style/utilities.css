@@ -16,3 +16,18 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
+.font-paragraph, p{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Merriweather', serif;
+  /* font-family: 'Roboto Serif', sans-serif; */
+  line-height: 1.5rem;
+}
+
+.font-header,h1,h2,h3,h4,h5{  
+/* font-family: 'Roboto Serif', sans-serif; */
+font-family: 'Abhaya Libre', serif;
+letter-spacing: 0.1rem;
+font-weight: 600;
+
+}

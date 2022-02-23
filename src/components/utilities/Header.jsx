@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
-import logo from '../../assets/logo.png';
+import logo from "../../assets/logo.png";
+
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -20,20 +22,34 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav fill defaultActiveKey="/home">
-            <Nav.Link href="/home">Home</Nav.Link>
+            <NavLink to="/home" className="text-dark d-block py-2 px-3">
+              Home
+            </NavLink>
             <NavDropdown title="Who We Are" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/about">About</NavDropdown.Item>
-              <NavDropdown.Item href="/founders">Founders</NavDropdown.Item>
-              <NavDropdown.Item href="/history">Our History</NavDropdown.Item>
-              <NavDropdown.Item href="/spirituality">
+              <NavLink to="/about" className="text-dark d-block py-2 px-3">
+                About
+              </NavLink>
+              <NavLink to="/founders" className="text-dark d-block py-2 px-3">
+                Founders
+              </NavLink>
+              <NavLink to="/history" className="text-dark d-block py-2 px-3">
+                Our History
+              </NavLink>
+              <NavLink
+                to="/spirituality"
+                className="text-dark d-block py-2 px-3"
+              >
                 Our Spirituality
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/mission">
+              </NavLink>
+              <NavLink to="/mission" className="text-dark d-block py-2 px-3">
                 Pauline Mission
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/cooperators">
+              </NavLink>
+              <NavLink
+                to="/cooperators"
+                className="text-dark d-block py-2 px-3"
+              >
                 Pauline Cooperators
-              </NavDropdown.Item>
+              </NavLink>
             </NavDropdown>
             <Nav.Link
               href="http://www.e.paulinesafrica.org"
