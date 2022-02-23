@@ -54,7 +54,7 @@ function Featured() {
         className="text-center border-0 bg-white"       
       >
         <Card.Title className="bg-white text-maroon">Featured Books</Card.Title>
-        <Card.Body className="m-3 bg-main">    
+        <Card.Body className="m-3 bg-light">    
           <Row xs={12} md={12} className="g-4">
             {images.map((url) => (
               <Col className="alternate-padding book" key={url.book}>
@@ -63,6 +63,7 @@ function Featured() {
                     variant="top"
                     src={url.book}
                     style={{ width: 70 + "px" }}
+                    className='shadow'
                   />
                 </a>
               </Col>
