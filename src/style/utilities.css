@@ -17,14 +17,17 @@ a {
   color: #fff;
 }
 
-.font-mont, p{
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.7rem;
+.font-paragraph, p{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Merriweather', serif;
+  /* font-family: 'Roboto Serif', sans-serif; */
+  line-height: 1.5rem;
 }
 
-.font-rob,h1,h2,h3,h4,h5 {  
-font-family: 'Roboto Serif', sans-serif;
+.font-header,h1,h2,h3,h4,h5{  
+/* font-family: 'Roboto Serif', sans-serif; */
+font-family: 'Abhaya Libre', serif;
 letter-spacing: 0.1rem;
-font-weight: bold;
+font-weight: 600;
 
 }
