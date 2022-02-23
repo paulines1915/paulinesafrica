@@ -21,7 +21,7 @@ function Footer() {
               <h1>Subscribe to our Monthly Newsletter</h1>
 
               <Col sm={10} className="mb-3">
-                <Form.Group controlId="formGridEmail"   >
+                <Form.Group controlId="formGridEmail"  id="center">
                   <Form.Control
                   style={{width:70+'vw'}}
                     type="email"
@@ -50,7 +50,7 @@ function Footer() {
                     <br />
                     Nairobi GPO(Kenya)
                     <br />
-                    <br />
+                  
                     <FaPhoneAlt />
                     Tel: <a href="tel:(020)44447202/03">(020) 44447202/03</a>
                     .<br />

@@ -16,3 +16,15 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
+.font-mont, p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7rem;
+}
+
+.font-rob,h1,h2,h3,h4,h5 {  
+font-family: 'Roboto Serif', sans-serif;
+letter-spacing: 0.1rem;
+font-weight: bold;
+
+}
