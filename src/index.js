@@ -12,6 +12,7 @@ import './style/featured.css';
 import './style/footer.css';
 import './style/bookcenter.css';
 import './style/home.css';
+import './style/map.css';
 
 ReactDOM.render(
   <React.StrictMode>
