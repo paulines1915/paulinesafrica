@@ -8,7 +8,7 @@ function Mission() {
     <div>
       <HeroSection />
       <Card className="border-0 p-3">
-        <Card.Title className="text-maroon">Pauline Mission</Card.Title>
+        <Card.Title className="text-maroon font-header">Pauline Mission</Card.Title>
         <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
           <Card.Text>
             The Daughters of St. Paul dedicate their lives to the Gospel. While

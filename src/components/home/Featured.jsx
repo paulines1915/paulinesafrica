@@ -1,7 +1,6 @@
 import React from "react";
 
-import ReactDOM from 'react-dom';
-import Tilt from 'react-parallax-tilt';
+import Tilt from "react-parallax-tilt";
 
 import { Card, Row, Col } from "react-bootstrap";
 import book1 from "../../assets/featured-1.png";
@@ -58,22 +57,20 @@ function Featured() {
         <Card.Body className="m-3">
           <Row xs={12} md={12} className="g-4 bg-light">
             {images.map((url) => (
-              <Col
-                className="alternate-padding book"
-                key={url.book}
-              
-              >
+              <Col className="alternate-padding book" key={url.book}>
                 <a href={url.href} target="_blank">
                   <Tilt
-                  options={{ scale: 2, max: 50, glare: true, perspective:1000, transition:        true }}
-                    className="py-5 shadow"
-                    style={{ width: 0 + "px", margin: 0 + "auto" }}
+                    style={{ width: "auto", margin: 0 + "auto" }}
+                    className="parallax-effect-glare-scale py-3"
+                    perspective={200}
+                    glareEnable={true}
+                    glareMaxOpacity={0.5}
+                    scale={1.5}
                   >
                     <Card.Img
                       variant="top"
                       src={url.book}
-                      style={{ width: 60 + "px" }}
-                      // className="shadow"
+                      style={{ width: 44 + "px" }}
                     />
                   </Tilt>
                 </a>

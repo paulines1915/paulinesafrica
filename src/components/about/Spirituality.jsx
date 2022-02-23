@@ -15,7 +15,7 @@ function Spirituality() {
             {' '}
             <h1>Our Spirituality</h1>
           </div>
-          <Card.Title className="text-maroon my-4 text-uppercase">
+          <Card.Title className="text-maroon my-4 text-uppercase font-header">
             Pauline Spirituality
           </Card.Title>
           <Card.Text className="">
@@ -39,7 +39,7 @@ function Spirituality() {
           </Card.Text>
           <Row className="mb-4" xs={1} md={2}>
             <Col>
-              <Card.Title className="text-maroon">
+              <Card.Title className="text-maroon font-header">
                 JESUS MASTER: Way, Truth and Life
               </Card.Title>
               <Card.Text className="text-start">
@@ -74,7 +74,7 @@ function Spirituality() {
               />
             </Col>
             <Col>
-              <Card.Title className="text-maroon">
+              <Card.Title className="text-maroon font-header">
                 Mary Queen of the Apostles
               </Card.Title>
               <Card.Text className="text-end">
@@ -93,7 +93,7 @@ function Spirituality() {
           </Row>
           <Row className="mb-1" xs={1} md={2}>
             <Col>
-              <Card.Title className="text-maroon">St Paul Apostle</Card.Title>
+              <Card.Title className="text-maroon font-header">St Paul Apostle</Card.Title>
               <Card.Text className="text-start">
                 About us Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lorem Ipsum has been the industry's

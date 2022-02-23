@@ -14,6 +14,7 @@ function PublishSection() {
             
                 target="_blank"
                 rel="noreferrer"
+                className='text-white font-header h2'
               >
                 Publish with us
               </a>
