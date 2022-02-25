@@ -11,7 +11,7 @@ function Header() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="bg-white sticky"
+      className="bg-white sticky-top shadow"
       variant="light"
     >
       <Container>

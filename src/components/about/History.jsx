@@ -3,10 +3,16 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 
 import james from '../../assets/james-cover.jpg';
+import banner from '../../assets/history-banner.png'
+import HeroSection from '../utilities/HeroSection';
+
+const history = [banner, banner, banner, banner, banner];
+
 
 function History() {
   return (
     <div>
+      <HeroSection banners={history}/>
       <Card className="text-center p-md-3 border-0">
         <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
           <div className="bg-light py-5">
