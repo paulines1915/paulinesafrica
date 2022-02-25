@@ -13,7 +13,7 @@ function Footer() {
     <footer className="footer">
       <Card className="p-0 border-0">
         <div className="overlay">
-          <h1>We are here for anytime everyday</h1>
+          <h1>Discerning your vocation?</h1>
           <FormModal />
         </div>
         <Card.Body className="bg-main text-light">
@@ -21,19 +21,19 @@ function Footer() {
             <Row className="text-center container">
               <h1>Subscribe to our Monthly Newsletter</h1>
 
-              <Col sm={10} className="mb-3">
+              <Col className="mb-3 ml-3">
                 <Form.Group controlId="formGridEmail" id="center">
                   <Form.Control
-                    style={{ width: 70 + "vw" }}
+                    style={{ width: 20 + "vw", margin: 0 + "auto" }}
                     type="email"
                     placeholder="Enter email"
                   />
                 </Form.Group>
-              </Col>
-              <Col sm={2} className="mb-3">
-                <Button variant="primary" type="submit">
-                  Submit
-                </Button>
+                <Col className="mb-3 m-3 d-inline-block">
+                  <Button variant="primary" type="submit">
+                    Submit
+                  </Button>
+                </Col>
               </Col>
             </Row>
             <Col xs={12} md={2}>
@@ -123,7 +123,7 @@ function Footer() {
               </ul>
             </Col>
             <Col xs={12} md={4}>
-            <h1>Location</h1>
+              <h1>Location</h1>
               <Map />
             </Col>
           </Row>
