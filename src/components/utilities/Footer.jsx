@@ -123,6 +123,7 @@ function Footer() {
               </ul>
             </Col>
             <Col xs={12} md={4}>
+            <h1>Location</h1>
               <Map />
             </Col>
           </Row>
