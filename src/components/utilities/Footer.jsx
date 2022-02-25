@@ -1,10 +1,11 @@
 import React from "react";
 
-import { Row, Col, Card, Form, Button, Container } from "react-bootstrap";
+import { Row, Col, Card, Form, Button } from "react-bootstrap";
 
 import { FaFax, FaPhoneAlt, FaMobile, FaEnvelope } from "react-icons/fa";
 
 import FormModal from "../home/FormModal";
+import Map from "./Map";
 import SocilaMediaIcons from "./SocilaMediaIcons";
 
 function Footer() {
@@ -21,12 +22,11 @@ function Footer() {
               <h1>Subscribe to our Monthly Newsletter</h1>
 
               <Col sm={10} className="mb-3">
-                <Form.Group controlId="formGridEmail"   >
+                <Form.Group controlId="formGridEmail" id="center">
                   <Form.Control
-                  style={{width:70+'vw'}}
+                    style={{ width: 70 + "vw" }}
                     type="email"
                     placeholder="Enter email"
-                    
                   />
                 </Form.Group>
               </Col>
@@ -36,7 +36,7 @@ function Footer() {
                 </Button>
               </Col>
             </Row>
-            <Col xs={12} md={3}>
+            <Col xs={12} md={2}>
               <ul className="list-unstyled">
                 <li>
                   {" "}
@@ -49,7 +49,6 @@ function Footer() {
                     P.O. Box 49026 00100
                     <br />
                     Nairobi GPO(Kenya)
-                    <br />
                     <br />
                     <FaPhoneAlt />
                     Tel: <a href="tel:(020)44447202/03">(020) 44447202/03</a>
@@ -70,7 +69,7 @@ function Footer() {
               </ul>
             </Col>
             <SocilaMediaIcons />
-            <Col xs={12} md={3}>
+            <Col xs={12} md={2}>
               <ul className="list-unstyled">
                 <li>
                   {" "}
@@ -88,7 +87,7 @@ function Footer() {
                 </li>
               </ul>
             </Col>
-            <Col xs={12} md={3}>
+            <Col xs={12} md={2}>
               <ul className="list-unstyled">
                 <li>
                   {" "}
@@ -123,7 +122,10 @@ function Footer() {
                 </li>
               </ul>
             </Col>
-            <Col xs={12} md={3}></Col>
+            <Col xs={12} md={4}>
+            <h1>Location</h1>
+              <Map />
+            </Col>
           </Row>
         </Card.Body>
       </Card>

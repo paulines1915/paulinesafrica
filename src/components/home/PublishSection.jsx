@@ -14,6 +14,7 @@ function PublishSection() {
             
                 target="_blank"
                 rel="noreferrer"
+                className='text-white font-header h2'
               >
                 Publish with us
               </a>
@@ -24,6 +25,7 @@ function PublishSection() {
                 href="https://www.youtube.com/watch?v=GIV-sfAva00&t=1s"
                 target="_blank"
                 rel="noreferrer"
+                className='btn btn-info'
               >
                 Learn More
               </a>

@@ -13,7 +13,7 @@ function History() {
             {' '}
             <h1>Our History</h1>
           </div>
-          <Card.Title className="text-maroon my-4">Paulines Family</Card.Title>
+          <Card.Title className="text-maroon my-4 font-header">Paulines Family</Card.Title>
           <Card.Text className="my-4">
             About us Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the industry's standard

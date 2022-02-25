@@ -15,9 +15,12 @@ function Header() {
       variant="light"
     >
       <Container>
-        <Navbar.Brand href="/home">
-          <img src={logo} alt="Paulines" style={{ width: 7 + `rem` }} />
-        </Navbar.Brand>
+        <NavLink to="/home" className="text-dark d-block py-2 px-3">
+          <Navbar.Brand>
+            <img src={logo} alt="Paulines" style={{ width: 7 + `rem` }} />
+          </Navbar.Brand>
+        </NavLink>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>

@@ -12,9 +12,6 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <meta http-equiv='cache-control' content='no-cache'>
-<meta http-equiv='expires' content='0'>
-<meta http-equiv='pragma' content='no-cache'>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -31,7 +28,10 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
-
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@200;300&family=Roboto+Serif:wght@100;200&display=swap" rel="stylesheet"> 
     <script
       src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
       integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
@@ -63,17 +63,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script>
-      $(document).ready(function () {
-        /* code here */
-        $('#carouselHacked').carousel({
-          interval: 1000 * 10,
-        });
-
-        // to start transition of first slide
-        let i = $('carouselHacked').find('.item').first().addClass('active');
-        console.log(i);
-      });
-    </script>
   </body>
 </html>
