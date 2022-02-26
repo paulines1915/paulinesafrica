@@ -2,7 +2,7 @@ import React from "react";
 
 import Tilt from "react-parallax-tilt";
 
-import { Card, Row, Col } from "react-bootstrap";
+import { Card, Row, Col, Container } from "react-bootstrap";
 import book1 from "../../assets/featured-1.png";
 import book2 from "../../assets/featured-2.png";
 import book3 from "../../assets/featured-3.png";
@@ -51,14 +51,14 @@ const images = [
 
 function Featured() {
   return (
-    <div className="container">
+    <Container>
       <Card className="text-center border-0">
         <Card.Title className="bg-white text-maroon">Featured Books</Card.Title>
-        <Card.Body className="m-3">
+        <Card.Body className="mx-2">
           <Row xs={12} md={12} className="g-4 bg-light">
             {images.map((url) => (
               <Col className="alternate-padding book" key={url.book}>
-                <a href={url.href} target="_blank">
+                <a href={url.href} target="_blank" rel="noreferrer">
                   <Tilt
                     style={{ width: "auto", margin: 0 + "auto" }}
                     className="parallax-effect-glare-scale py-3"
@@ -79,7 +79,7 @@ function Featured() {
           </Row>
         </Card.Body>
       </Card>
-    </div>
+    </Container>
   );
 }
 

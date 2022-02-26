@@ -20,20 +20,18 @@ function Footer() {
           <Row>
             <Row className="text-center container">
               <h1>Subscribe to our Monthly Newsletter</h1>
-
-              <Col className="mb-3 ml-3">
+              <Col xs={12} className="mb-3 ml-3">
                 <Form.Group controlId="formGridEmail" id="center">
                   <Form.Control
-                    style={{ width: 20 + "vw", margin: 0 + "auto" }}
+                    // style={{ width: 20 + "vw", margin: 0 + "auto" }}
                     type="email"
                     placeholder="Enter email"
                   />
-                </Form.Group>
-                <Col className="mb-3 m-3 d-inline-block">
-                  <Button variant="primary" type="submit">
-                    Submit
-                  </Button>
-                </Col>
+                </Form.Group>              
+             
+                <Button variant="primary" type="submit" className="mb-3 m-2 d-inline-block">
+                  Submit
+                </Button>            
               </Col>
             </Row>
             <Col xs={12} md={2}>

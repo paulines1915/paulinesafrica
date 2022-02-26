@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { Card, Button } from 'react-bootstrap';
+import { Card, Button, Container } from 'react-bootstrap';
 
 function ObjectiveSection() {
   return (
-    <div>
-      <Card className="text-center m-3 px-5 border-0">
-        <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
+    <Container>
+      <Card className="border-0">
+        <Card.Body >
           <Card.Title className="text-maroon">General Objective</Card.Title>
-          <Card.Text>
+          <Card.Text className="text-center">
             Paulines Books and Audio-visuals is an activity of the Daughters of
             St Paul, an international religious congregation using the
             communications media to spread the Gospel message and to promote the
@@ -23,10 +23,9 @@ function ObjectiveSection() {
             catechesis, the teaching of the Church, formation to justice and
             peace, life education and literature for children.
           </Card.Text>
-          <Button className="bg-main">Learn More</Button>
         </Card.Body>
       </Card>
-    </div>
+    </Container>
   );
 }
 

@@ -1,14 +1,12 @@
 import React from 'react';
 
-import { Card, Row, Col } from 'react-bootstrap';
+import { Card, Row, Col, Container } from 'react-bootstrap';
 
 function PublishSection() {
   return (
-    <div className="container ">
-      <Card className="text-center border-0 rounded-0  mb-4">
-        <Card.Body className='publish-bg'>
-          <Row className="p-5">
-            <Col sm={8} style={{ paddingLeft: 0 }} className="text-uppercase ms-auto">
+    <Container className=''>    
+          <Row className="p-5 mb-3 m-2 publish-bg">
+            <Col style={{ paddingLeft: 0 }} className="text-uppercase ms-auto">
               <a
                 href="https://www.youtube.com/watch?v=GIV-sfAva00&t=1s"
             
@@ -19,7 +17,7 @@ function PublishSection() {
                 Publish with us
               </a>
             </Col>
-            <Col sm={4} >
+            <Col>
               <a
                
                 href="https://www.youtube.com/watch?v=GIV-sfAva00&t=1s"
@@ -30,10 +28,8 @@ function PublishSection() {
                 Learn More
               </a>
             </Col>
-          </Row>
-        </Card.Body>
-      </Card>
-    </div>
+          </Row>      
+    </Container>
   );
 }
 
