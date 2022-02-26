@@ -1,40 +1,43 @@
-import React from 'react';
+import React from "react";
 
-import { Row, Col, Card, Form, Button } from 'react-bootstrap';
+import { Row, Col, Card, Form, Button } from "react-bootstrap";
 
-import { FaFax, FaPhoneAlt, FaMobile, FaEnvelope } from 'react-icons/fa';
+import { FaFax, FaPhoneAlt, FaMobile, FaEnvelope } from "react-icons/fa";
 
-import FormModal from '../home/FormModal';
-import SocilaMediaIcons from './SocilaMediaIcons';
+import FormModal from "../home/FormModal";
+import Map from "./Map";
+import SocilaMediaIcons from "./SocilaMediaIcons";
 
 function Footer() {
   return (
     <footer className="footer">
       <Card className="p-0 border-0">
         <div className="overlay">
-          <h1>We are here for anytime everyday</h1>
+          <h1>Discerning your vocation?</h1>
           <FormModal />
         </div>
         <Card.Body className="bg-main text-light">
-          {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
           <Row>
-            <Row xs={12}>
-              <h1>Newletter signup</h1>
-              <Col xs={8} className="mb-3">
-                <Form.Group as={Col} controlId="formGridEmail">
-                  <Form.Control type="email" placeholder="Enter email" />
-                </Form.Group>
-              </Col>
-              <Col xs={4}>
-                <Button as={Col} variant="primary" type="submit">
+            <Row className="text-center container">
+              <h1>Subscribe to our Monthly Newsletter</h1>
+              <Col xs={12} className="mb-3 ml-3">
+                <Form.Group controlId="formGridEmail" id="center">
+                  <Form.Control
+                    // style={{ width: 20 + "vw", margin: 0 + "auto" }}
+                    type="email"
+                    placeholder="Enter email"
+                  />
+                </Form.Group>              
+             
+                <Button variant="primary" type="submit" className="mb-3 m-2 d-inline-block">
                   Submit
-                </Button>
+                </Button>            
               </Col>
             </Row>
-            <Col xs={12} md={3}>
+            <Col xs={12} md={2}>
               <ul className="list-unstyled">
                 <li>
-                  {' '}
+                  {" "}
                   <h1>Contact us</h1>
                 </li>
                 <li>
@@ -45,17 +48,16 @@ function Footer() {
                     <br />
                     Nairobi GPO(Kenya)
                     <br />
-                    <br />
                     <FaPhoneAlt />
                     Tel: <a href="tel:(020)44447202/03">(020) 44447202/03</a>
                     .<br />
                     <FaFax />
                     Fax: <a href="fax:4442097">4442097</a>
                     .<br />
-                    <FaMobile /> Mob:{' '}
+                    <FaMobile /> Mob:{" "}
                     <a href="tel:+254727736621">+254 727 736 621</a>
                     .<br />
-                    <FaEnvelope /> Email:{' '}
+                    <FaEnvelope /> Email:{" "}
                     <a href="mailto:publications@paulinesafrica.org">
                       publications@paulinesafrica.org
                     </a>
@@ -65,10 +67,10 @@ function Footer() {
               </ul>
             </Col>
             <SocilaMediaIcons />
-            <Col xs={12} md={3}>
+            <Col xs={12} md={2}>
               <ul className="list-unstyled">
                 <li>
-                  {' '}
+                  {" "}
                   <h1>Daughters of St Paul</h1>
                 </li>
                 <li>Who we are</li>
@@ -78,15 +80,15 @@ function Footer() {
                 <li>our mission</li>
                 <li>Pauline cooperators and Events</li>
                 <li>
-                  {' '}
-                  <a href="www.paoline.org">News</a>{' '}
+                  {" "}
+                  <a href="www.paoline.org">News</a>{" "}
                 </li>
               </ul>
             </Col>
-            <Col xs={12} md={3}>
+            <Col xs={12} md={2}>
               <ul className="list-unstyled">
                 <li>
-                  {' '}
+                  {" "}
                   <h1>Quick Links</h1>
                 </li>
                 <li>
@@ -118,7 +120,10 @@ function Footer() {
                 </li>
               </ul>
             </Col>
-            <Col xs={12} md={3}></Col>
+            <Col xs={12} md={4}>
+              <h1>Location</h1>
+              <Map />
+            </Col>
           </Row>
         </Card.Body>
       </Card>

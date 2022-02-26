@@ -11,7 +11,7 @@ function Daughters() {
     <div>
       <Card className="text-center p-md-3 border-0">
         <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
-          <Card.Title className="text-maroon my-4 text-uppercase">
+          <Card.Title className="text-maroon my-4 text-uppercase font-header">
             Ever Onward Daughters of St Paul
           </Card.Title>
 

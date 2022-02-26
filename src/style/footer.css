@@ -1,5 +1,5 @@
 footer.footer {
-  text-align: left !important;
+  text-align: center !important;
   line-height: 2rem;
 }
 
@@ -23,11 +23,11 @@ footer.footer .overlay {
       rgba(0, 0, 255, 0.5),
       rgba(255, 255, 0, 0.5)
     ),
-    url("../assets/sister1.jpg");
+    url("../assets/sister11.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 38vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,4 +38,11 @@ footer.footer .overlay {
 footer.footer .overlay button {
   width: 10rem;
   margin: 0 auto;
+}
+#center {
+  display: inline-block;
+}
+
+::placeholder {
+  text-align: center;
 }

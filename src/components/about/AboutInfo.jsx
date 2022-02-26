@@ -6,8 +6,8 @@ function AboutInfo() {
   return (
     <div>
       <Card className="text-center p-md-5 border-0 m-5">
-        <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
-          <Card.Title className="text-maroon">About Us</Card.Title>
+        <Card.Body style={{ maxWidth: 100 + `vw`, margin: 0 + ` auto` }}>
+          <Card.Title className="text-maroon font-header">About Us</Card.Title>
           <Card.Text>
             About us Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the industry's standard
