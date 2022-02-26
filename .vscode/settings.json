@@ -4,7 +4,7 @@
    "python.pythonPath":"~/AppData/Local/Programs/Python/Python310/python.exe",
     
     "editor.formatOnSave": true,
-    "python.linting.pep8Enabled": true,
+    "python.linting.pycodestyleEnabled": true,
     "python.linting.pylintPath": "pylint",
     "python.linting.pylintArgs": [
         "--load-plugins",
