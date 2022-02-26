@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, Row, Col, Container } from 'react-bootstrap';
+import {Row, Col, Container } from 'react-bootstrap';
 
 function PublishSection() {
   return (
