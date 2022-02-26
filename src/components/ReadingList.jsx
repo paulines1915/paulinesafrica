@@ -19,8 +19,14 @@ export default class ReadingList extends Component {
     return (
       <div className="container">
         <h3>Data From Our Backend Says...</h3>
-        <h2>{console.log(this.state.readings)}</h2>
-        <p>{this.state.readings.content}</p>
+        {this.state.readings.map((reading) => {
+          return (
+            <div>
+              <h2>{reading.title}</h2>
+              <p>{reading.content}</p>
+            </div>
+          );
+        })}
       </div>
     );
   }
