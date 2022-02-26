@@ -15,7 +15,7 @@ function ObjectiveSection() {
             dignity of all people. The mission of the Daughters of St Paul is to
             be at the service of evangelisation through the means of social
             communications: “To do the charity of the truth” according to
-            Blessed James Alberione, their founder. Paulines’ strategies and
+            Blessed James Alberione, their founder. Paulines' strategies and
             priorities are set according to the needs of the people and
             following the directives of the Congregation and the Church,
             particularly the African Church. Paulines Africa publishes and
