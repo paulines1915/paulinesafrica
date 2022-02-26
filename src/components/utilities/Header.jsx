@@ -11,7 +11,7 @@ function Header() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="bg-white sticky"
+      className="bg-white sticky-top shadow"
       variant="light"
     >
       <Container>
@@ -71,6 +71,9 @@ function Header() {
             <Nav.Link href="/donations">Donations</Nav.Link>
             <Nav.Link href="/resources">Resources</Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>
+            <NavLink to="/readings" className="text-dark d-block py-2 px-3">
+              Daily Readings
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -3,10 +3,15 @@ import { Card, Button } from 'react-bootstrap';
 import HeroSection from '../utilities/HeroSection';
 import FoundersAvatar from './FoundersAvatar';
 
+import banner from '../../assets/mission-banner.png'
+
+const mission = [banner, banner, banner, banner, banner];
+
+
 function Mission() {
   return (
     <div>
-      <HeroSection />
+      <HeroSection banners={mission}/>
       <Card className="border-0 p-3">
         <Card.Title className="text-maroon font-header">Pauline Mission</Card.Title>
         <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>

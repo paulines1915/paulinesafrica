@@ -29,7 +29,7 @@ function TrendingandGallery() {
        <Card
         className="text-center border-0"
       >
-        <Card.Body className="m-3">
+        <Card.Body>
           <Row xs={1} sm={2} md={3} className="g-4">
             {icons.map((url) => (
               <Col key={url.icon}>

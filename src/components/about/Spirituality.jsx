@@ -6,9 +6,18 @@ import spirit1 from '../../assets/spirit1.jpg';
 import spirit2 from '../../assets/spirit2.png';
 import spirit3 from '../../assets/spirit3.png';
 
+
+
+
+import banner from '../../assets/spirituality-banner.png'
+import HeroSection from '../utilities/HeroSection';
+
+const spirituality = [banner, banner, banner, banner, banner];
+
 function Spirituality() {
   return (
-    <div>
+    <div>   
+       <HeroSection banners={spirituality}/>
       <Card className="text-center p-md-3 border-0">
         <Card.Body style={{ maxWidth: 731 + `px`, margin: 0 + ` auto` }}>
           <div className="bg-light py-5">

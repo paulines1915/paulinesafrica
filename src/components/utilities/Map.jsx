@@ -1,14 +1,15 @@
 import React, { useRef, useEffect, useState } from "react";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
+// import 'mapbox-gl/dist/mapbox-gl.css';
 
 mapboxgl.accessToken = `${process.env.REACT_APP_MAPBOX_TOKEN}`;
 
 function Map() {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(-70.9);
-  const [lat, setLat] = useState(42.35);
-  const [zoom, setZoom] = useState(9);
+  const [lng, setLng] = useState(36.81667);
+  const [lat, setLat] = useState(-1.28333);
+  const [zoom, setZoom] = useState(10); 
 
   useEffect(() => {
     if (map.current) return; // initialize map only once

@@ -9,11 +9,16 @@ import FoundersAvatar from './FoundersAvatar';
 import james from '../../assets/james-cover.jpg';
 import FounderContact from './FounderContact';
 
+import banner1 from "../../assets/history-banner.png";
+
+const founders = [banner1, banner1, banner1, banner1, banner1];
+
+
 function Founders() {
   const [key, setKey] = useState('name');
   return (
     <>
-      <HeroSection />
+      <HeroSection banners={founders}/>
       <Container>
         <Row xs={1} md={2} className="pt-5 px-4 text-start">
           <Col md={5} className="p-3">

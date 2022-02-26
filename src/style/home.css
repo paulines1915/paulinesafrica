@@ -4,11 +4,11 @@
     url('../assets/publish-1.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /* min-height: 38vh; */
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
   color: #fff;
 }
